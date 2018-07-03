@@ -1,0 +1,7 @@
+#!/usr/bin/env ansible-playbook
+# vim:ft=ansible:
+- hosts: all
+  roles:
+# Optionally, (re)deploy JBoss here	  
+    - jboss-standalone
+    - java-app
